@@ -1,3 +1,7 @@
+import qrcode
+from PIL import Image, ImageDraw, ImageFont
+import os
+import sys
 from cryptography.fernet import Fernet
 import os
 import json
